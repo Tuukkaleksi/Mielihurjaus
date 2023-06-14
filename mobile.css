@@ -1,0 +1,132 @@
+/* Mobile */
+@media screen and (max-width: 950px) {
+
+body {
+    overflow: auto;
+}
+
+a, p, h1, h2, h3, h4, h5 {
+    color: black;
+}
+
+.messenger {
+    top: 2%;
+    margin-top: 0;
+    height: 96%;
+    min-width: 0;
+}
+
+.messenger-header {
+    padding: 15px;
+    height: 125px;
+}
+  
+.messenger-header h1 {
+    font-size: 20px;
+}
+  
+.message-bubble {
+    font-size: 16px;
+}
+
+.message-text, .message-info-name, .message-info-time {
+    color: black;
+}
+
+.timer {
+    font-size: 18px;
+}
+  
+.header {
+    width: 100%;
+    height: 70px;
+    top: 3%;
+    left: 0%;
+}
+  
+.header h3 {
+    font-size: 24px;
+}
+  
+body {
+    flex-direction: column;
+}
+  
+.container {
+    position: relative;
+    bottom: 0px;
+    width: auto;
+    top: 35px;
+    margin: 15px 0;
+    padding: 15px;
+    height: auto;
+    max-height: 300px;
+}
+
+.container-join {
+    position: relative;
+    top: 35px;
+    bottom: 0px;
+    width: 320px;
+    margin: 0px 0;
+    padding: 20px;
+    max-height: 220px;
+}
+
+.container-music {
+    position: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    text-align: center;
+    bottom: 0px;
+    left: 34%;
+}
+.container-music input, .container-music h3 {
+    position: relative;
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+.container-music h3 {
+    color: black;
+}
+
+.container-music button {
+    color: black;
+    background-color: white;
+}
+ 
+.won-text {
+    visibility: hidden;
+    display: none;
+}
+
+.odotus-room {
+    width: 360px;
+}
+  
+.head2 {
+    font-size: 22px;
+}
+.head3 {
+    font-size: medium;
+}
+.head4 {
+    font-size: small;
+}
+.code, .player {
+    font-size: medium;
+}
+  
+#customAlert {
+    width: 80%;
+}
+  
+.language-selector {
+    width: 350px;
+    font-size: 32px;
+}
+
+}

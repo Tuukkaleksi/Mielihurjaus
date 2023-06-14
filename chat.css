@@ -1,0 +1,216 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --body-bg: linear-gradient(135deg, #F5F7FA 0%, #c3CFE2 100%);
+  --msger-bg: #FFF;
+  --msger-bg: url('images/chatroom-bg.jpg');
+  --border: 2px solid #DDD;
+  --left-msg-bg: #ECECEC;
+  --right-msg-bg: #579FFB;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+}
+
+.player-count {
+  font-weight: bold;
+}
+
+/* Header */
+.penrose-64 {
+  max-width: 64px;
+  height: auto;
+  /*transform: rotate(180deg);*/
+  animation: rotate 15s ease infinite;
+}
+
+.penrose-animation {
+  -webkit-animation: rotate 15s ease infinite;
+  -moz-animation: rotate 15s ease infinite;
+  -o-animation: rotate 15s ease infinite;
+  animation: rotate 15s ease infinite;
+}
+
+.messenger img {
+  position: absolute;
+}
+
+.messenger-container {
+  position: relative;
+  left: 0px;
+  height: 100%;
+}
+
+/* Message Container */
+.messenger {
+  position: fixed;
+  left: 2%;
+  top: 2%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 95%;
+  height: 97vh;
+  margin: 0;
+  border: var(--border);
+  border-radius: 5px;
+  background: var(--msger-bg);
+  box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* Message Header */
+.messenger-header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-bottom: var(--border);
+  background: #eee;
+  color: #666;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.timer-line {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #4a8fff, #007bff);
+  transform: translateY(-50%);
+  animation: timer-animation linear infinite;
+  transition: width 0.3s ease;
+}
+
+.messenger-header h1 {
+  font-size: 34px;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+/* Message Chat Container */
+.messenger-chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.messenger-chat::-webkit-scrollbar {
+  width: 6px;
+}
+
+.messenger-chat::-webkit-scrollbar-track {
+  background: #DDD;
+}
+
+/* Chat Message */
+.message {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.message:last-child {
+  margin-bottom: 0;
+}
+
+.message-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background: #ddd;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.message-bubble {
+  max-width: auto;
+  max-width: 500px;
+  padding: 15px;
+  border-radius: 15px;
+  word-break: break-word; /* Added property for responsive text wrapping */
+}
+
+/* Left Message */
+.left-message .message-bubble {
+  background: var(--left-msg-bg);
+  border-bottom-left-radius: 0;
+}
+
+/* Right Messages */
+.right-message {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.right-message .message-bubble {
+  background: var(--right-msg-bg);
+  color: #FFF;
+  border-bottom-right-radius: 0;
+}
+
+.right-message .message-image {
+  margin-left: 10px;
+}
+
+/* Message Info */
+.message-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.message-info-name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.message-info-time {
+  font-size: 0.85em;
+}
+
+/* Input Area For Chat */
+.messenger-inputarea {
+  display: flex;
+  padding: 10px;
+  border-top: var(--border);
+  background: #EEE;
+}
+
+.messenger-inputarea * {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.messenger-input {
+  flex: 1;
+  color: black;
+  background: #ffffff;
+}
+
+.messenger-send-btn {
+  height: 40px;
+  margin-left: 10px;
+  background: rgb(0, 196, 65);
+  color: #FFF;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+
+.messenger-send-btn:hover {
+  background: rgb(0, 180, 50);
+}
