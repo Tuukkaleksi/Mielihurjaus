@@ -2,7 +2,7 @@
 #### Peli, jossa pelaajilta kysytään kysymyksiä. Pelaajien pitää arvata vastausten perusteella, että kuka pelaajista on oikeasti tekoäly.
 
 ## Viimeiset Muutokset
-### Firebase Sivusto: https://poetic-otter-e26763.netlify.app/
+### Sivusto: https://poetic-otter-e26763.netlify.app/
 	`npm install firebase openai dotenv lisätty.`
 	`valmiiksi firebasea varten.`
 	`Firebase deploy onnistu.`
