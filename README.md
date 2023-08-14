@@ -1,9 +1,6 @@
 ## [Mielihurjaus: <i>Ihminen vs. Kone</i>](https://poetic-otter-e26763.netlify.app/)
 #### Peli, jossa pelaajilta kysytään kysymyksiä. Pelaajien pitää arvata vastausten perusteella, että kuka pelaajista on oikeasti tekoäly.
 
-# Projekti Istunnossa.
-	Projekti tehdään alusta ja päivitys tulee kun tulee.
-
 ## Viimeiset Muutokset
 ### Firebase Sivusto: https://poetic-otter-e26763.netlify.app/
 	`npm install firebase openai dotenv lisätty.`
