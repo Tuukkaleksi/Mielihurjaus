@@ -19,3 +19,6 @@
   - Nettisivusto: https://tuukkaleksi.github.io/vec-mie/
   Kyseisitä osoitteista pääsee testaamaan!
   Pelaajia tarvitsee olla vähintään 3.
+
+## Tämänhetkiset Bugit
+	[ Tähän voi kirjoittaa löytyvät bugit ]
