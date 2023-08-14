@@ -1,11 +1,11 @@
-## [Mielihurjaus: <i>Ihminen vs. Kone</i>](https://aigame-bb56c.web.app/)
+## [Mielihurjaus: <i>Ihminen vs. Kone</i>](https://poetic-otter-e26763.netlify.app/)
 #### Peli, jossa pelaajilta kysytään kysymyksiä. Pelaajien pitää arvata vastausten perusteella, että kuka pelaajista on oikeasti tekoäly.
 
 # Projekti Istunnossa.
 	Projekti tehdään alusta ja päivitys tulee kun tulee.
 
 ## Viimeiset Muutokset
-### Firebase Sivusto: https://aigame-bb56c.web.app/
+### Firebase Sivusto: https://poetic-otter-e26763.netlify.app/
 	`npm install firebase openai dotenv lisätty.`
 	`valmiiksi firebasea varten.`
 	`Firebase deploy onnistu.`
@@ -16,7 +16,7 @@
 	
 ## Osoitteiden muutokset:
 ### https://tuukkaleksi.github.io/vectorama-html/public/
-### https://aigame-bb56c.web.app/
+### https://poetic-otter-e26763.netlify.app/
 
   - Pelisivusto: https://poetic-otter-e26763.netlify.app/
   - Nettisivusto: https://tuukkaleksi.github.io/vec-mie/
